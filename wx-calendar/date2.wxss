@@ -1,0 +1,121 @@
+/* pages/date2/date2.wxss */
+.gs_calendar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:none;
+}
+.gs_bg{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0,0,0,.3);
+}
+.gs_gs_calendar_box{
+    position: absolute;
+    top:180rpx;
+    left:40rpx;
+    width:677rpx;
+    background-color:#fff;
+    padding:20rpx;
+    box-sizing: border-box;
+}
+.canlendarBgView{
+    
+}
+.canlendarView{}
+.canlendarTopView{
+    overflow:hidden;
+    padding:40rpx 20rpx;
+    margin-left:20rpx;
+}
+.leftBgView{
+    float:left;
+    width:153rpx;
+    text-align: center;
+}
+.leftView{
+   
+}
+.leftView image{
+    width:60rpx;
+    height:60rpx;
+}
+.centerView{
+    float:left;
+    font-size:32rpx;
+    height:60rpx;
+    line-height:60rpx;
+    width:260rpx;
+    text-align: center;
+}
+.rightBgView{
+    float:left;
+    width:156rpx;
+    text-align: center;
+}
+.rightView{}
+.rightView image{
+    width:60rpx;
+    height:60rpx;
+}
+.weekBgView{
+    overflow:hidden;
+}
+.weekView{
+    float:left;
+    width:14.28571428571429%;
+    text-align: center;
+    font-size:30rpx;
+    color:#707070;
+}
+.dateBgView{
+    overflow:hidden;
+    margin-bottom:20rpx;
+}
+.dateEmptyView{
+}
+.dateView{
+    display:inline-block;
+    text-align: center;
+    position:relative;
+}
+.datesView{
+    font-size:30rpx;
+    color:#2b2b2b;
+}
+.dateOn{
+  border-radius: 50%;
+  background-color: #53acfc;
+  color: #fff !important;
+}
+.del{
+    position:absolute;
+    top:-20rpx;
+    right:-20rpx;
+    width:50rpx;
+    height:50rpx;
+    background-color:#fff;
+    border-radius:50%;
+
+}
+.del image{
+    width:50rpx;
+    height:50rpx;
+    vertical-align: text-top;
+}
+.clocksucceed{
+    position:absolute;
+    top:-3rpx;
+    left:20rpx;
+    background-color:#fff;
+}
+.clocksucceed image{
+    width:50rpx;
+    height:50rpx;
+    vertical-align: middle;
+}
